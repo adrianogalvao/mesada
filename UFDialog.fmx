@@ -1,0 +1,84 @@
+object FDialog: TFDialog
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 565
+  ClientWidth = 580
+  Transparency = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  FullScreen = True
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Client
+    Opacity = 0.600000023841857900
+    Size.Width = 580.000000000000000000
+    Size.Height = 565.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Panel2: TPanel
+      Align = Center
+      Size.Width = 380.000000000000000000
+      Size.Height = 236.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object ToolBar1: TToolBar
+        Align = Bottom
+        Opacity = 0.899999976158142100
+        Position.Y = 184.000000000000000000
+        Size.Width = 380.000000000000000000
+        Size.Height = 52.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object btnIniciar: TButton
+          Position.X = 272.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 104.000000000000000000
+          Size.Height = 38.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'cornerbuttonstyle'
+          TabOrder = 0
+          Text = 'Iniciar'
+          OnClick = btnIniciarClick
+        end
+      end
+      object ToolBar2: TToolBar
+        Size.Width = 380.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object lblTitulo: TLabel
+          Align = Client
+          StyledSettings = [Family, FontColor]
+          Size.Width = 380.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.HorzAlign = Center
+          Text = 'Titulo'
+          TabOrder = 0
+        end
+      end
+      object mmMsg: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Lines.Strings = (
+          'Mensagem')
+        TextSettings.HorzAlign = Center
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 370.000000000000000000
+        Size.Height = 115.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Viewport.Width = 366.000000000000000000
+        Viewport.Height = 111.000000000000000000
+      end
+    end
+  end
+end

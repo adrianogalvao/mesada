@@ -1,0 +1,64 @@
+object FrameMensagem: TFrameMensagem
+  Align = Contents
+  Size.Width = 200.000000000000000000
+  Size.Height = 200.000000000000000000
+  Size.PlatformDefault = False
+  object BackgroundRectangle: TRectangle
+    Align = Contents
+    Fill.Color = claBlack
+    Opacity = 0.660000026226043700
+    Size.Width = 200.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object ContentsLayout: TLayout
+    Align = Contents
+    Size.Width = 200.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object AniIndicator: TAniIndicator
+      Align = Center
+      Enabled = True
+      StyleLookup = 'aniindicatorstyle'
+      Size.Width = 105.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object MessageLabel: TLabel
+      Anchors = [akLeft, akRight]
+      StyledSettings = [Family, Style]
+      Position.X = 10.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 180.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claAzure
+      TextSettings.HorzAlign = Center
+      TextSettings.WordWrap = False
+      Text = 'Aguarde...'
+    end
+  end
+  object pnTitulo: TPanel
+    Anchors = [akLeft, akRight]
+    Opacity = 0.699999988079071000
+    Position.X = 8.000000000000000000
+    Position.Y = 28.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 2
+    object lblTitulo: TLabel
+      StyledSettings = [Family, Size, FontColor]
+      Position.X = 16.000000000000000000
+      Position.Y = 7.000000000000000000
+      Size.Width = 153.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+end

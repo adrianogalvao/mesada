@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/06/08 14:15:17.000.526,=C:\Users\Aryane Bueno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/08 14:18:25.000.451,C:\Users\Aryane Bueno\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Aryane Bueno\Documents\Hackaton\UFMenu.pas</Transaction>
+    <Transaction>2019/06/08 14:18:25.000.451,C:\Users\Aryane Bueno\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Aryane Bueno\Documents\Hackaton\UFMenu.fmx</Transaction>
+    <Transaction>2019/06/08 14:18:31.000.856,C:\Users\Aryane Bueno\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Aryane Bueno\Documents\Hackaton\Hackaton.dproj</Transaction>
+    <Transaction>2019/06/09 07:44:47.000.160,C:\Users\Aryane Bueno\Documents\Hackaton\Hackaton.dproj=C:\Users\Aryane Bueno\Documents\Hackaton\Mesada.dproj</Transaction>
+    <Transaction>2019/06/09 10:50:08.000.157,=C:\Users\Aryane Bueno\Documents\Hackaton\Unit1.pas</Transaction>
+    <Transaction>2019/06/09 10:53:37.000.624,C:\Users\Aryane Bueno\Documents\Hackaton\UFMensagem.pas=C:\Users\Aryane Bueno\Documents\Hackaton\Unit1.pas</Transaction>
+    <Transaction>2019/06/09 10:53:37.000.624,C:\Users\Aryane Bueno\Documents\Hackaton\UFMensagem.fmx=C:\Users\Aryane Bueno\Documents\Hackaton\Unit1.fmx</Transaction>
+    <Transaction>2019/06/09 11:10:35.000.749,C:\Users\Aryane Bueno\Documents\Hackaton\UFMensagem.pas=</Transaction>
+    <Transaction>2019/06/09 11:12:03.000.077,=C:\Users\Aryane Bueno\Documents\Hackaton\UFrameMensagem.pas</Transaction>
+    <Transaction>2019/06/09 12:39:02.000.488,=C:\Users\Aryane Bueno\Documents\Hackaton\Unit1.pas</Transaction>
+    <Transaction>2019/06/09 12:42:22.000.158,C:\Users\Aryane Bueno\Documents\Hackaton\Unit1.fmx=C:\Users\Aryane Bueno\Documents\Hackaton\UFDialog.fmx</Transaction>
+    <Transaction>2019/06/09 12:42:22.000.158,C:\Users\Aryane Bueno\Documents\Hackaton\Unit1.pas=C:\Users\Aryane Bueno\Documents\Hackaton\UFDialog.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0039298220"/>
+	</ActiveMobileDevice>
+</BorlandProject>
